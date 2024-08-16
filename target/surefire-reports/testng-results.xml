@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-30T03:21:39Z" name="Suite" finished-at="2024-07-30T03:22:08Z" duration-ms="28912">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidation.loginErroValidation()[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.ErrorValidation@6bca7e0d]" name="loginErroValidation" class="SupriyaBhosale.SeleniumProjectEcommerace.ErrorValidation"/>
+      </group> <!-- ErrorHandling -->
+      <group name="purchase">
+        <method signature="StandAloneTestHashmap.StandAlone(java.util.HashMap)[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.StandAloneTestHashmap@7803bfd]" name="StandAlone" class="SupriyaBhosale.SeleniumProjectEcommerace.StandAloneTestHashmap"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2024-07-30T03:21:39Z" name="Error validation Test" finished-at="2024-07-30T03:21:58Z" duration-ms="18884">
+      <class name="SupriyaBhosale.SeleniumProjectEcommerace.ErrorValidation">
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.ErrorValidation@6bca7e0d]" started-at="2024-07-30T03:21:39Z" name="lunchApplication" finished-at="2024-07-30T03:21:48Z" duration-ms="8717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="loginErroValidation()[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.ErrorValidation@6bca7e0d]" started-at="2024-07-30T03:21:48Z" name="loginErroValidation" finished-at="2024-07-30T03:21:50Z" duration-ms="2306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErroValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.ErrorValidation@6bca7e0d]" started-at="2024-07-30T03:21:50Z" name="tearDown" finished-at="2024-07-30T03:21:50Z" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.ErrorValidation@6bca7e0d]" started-at="2024-07-30T03:21:50Z" name="lunchApplication" finished-at="2024-07-30T03:21:53Z" duration-ms="3014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="productErrorValidation()[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.ErrorValidation@6bca7e0d]" started-at="2024-07-30T03:21:53Z" name="productErrorValidation" finished-at="2024-07-30T03:21:58Z" duration-ms="4605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.ErrorValidation@6bca7e0d]" started-at="2024-07-30T03:21:58Z" name="tearDown" finished-at="2024-07-30T03:21:58Z" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SupriyaBhosale.SeleniumProjectEcommerace.ErrorValidation -->
+    </test> <!-- Error validation Test -->
+    <test started-at="2024-07-30T03:21:39Z" name="HahMap DataProvider Test" finished-at="2024-07-30T03:22:08Z" duration-ms="28912">
+      <class name="SupriyaBhosale.SeleniumProjectEcommerace.StandAloneTestHashmap">
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.StandAloneTestHashmap@7803bfd]" started-at="2024-07-30T03:21:40Z" name="lunchApplication" finished-at="2024-07-30T03:21:48Z" duration-ms="7965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="StandAlone(java.util.HashMap)[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.StandAloneTestHashmap@7803bfd]" started-at="2024-07-30T03:21:48Z" name="StandAlone" data-provider="getData" finished-at="2024-07-30T03:21:55Z" duration-ms="7433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Supriya1234@, product=ZARA COAT 3, email=bhosalesupriya0912@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StandAlone -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.StandAloneTestHashmap@7803bfd]" started-at="2024-07-30T03:21:55Z" name="tearDown" finished-at="2024-07-30T03:21:56Z" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.StandAloneTestHashmap@7803bfd]" started-at="2024-07-30T03:21:56Z" name="lunchApplication" finished-at="2024-07-30T03:21:59Z" duration-ms="3112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="StandAlone(java.util.HashMap)[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.StandAloneTestHashmap@7803bfd]" started-at="2024-07-30T03:21:59Z" name="StandAlone" data-provider="getData" finished-at="2024-07-30T03:22:04Z" duration-ms="5364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Prit0911, product=ADIDAS ORIGINAL, email=gargi.b94@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StandAlone -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.StandAloneTestHashmap@7803bfd]" started-at="2024-07-30T03:22:04Z" name="tearDown" finished-at="2024-07-30T03:22:04Z" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.StandAloneTestHashmap@7803bfd]" started-at="2024-07-30T03:22:04Z" name="lunchApplication" finished-at="2024-07-30T03:22:07Z" duration-ms="3182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.StandAloneTestHashmap@7803bfd]" started-at="2024-07-30T03:22:07Z" name="OrderHistoryTest" finished-at="2024-07-30T03:22:08Z" depends-on-methods="SupriyaBhosale.SeleniumProjectEcommerace.StandAloneTestHashmap.StandAlone" duration-ms="931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.StandAloneTestHashmap@7803bfd]" started-at="2024-07-30T03:22:08Z" name="tearDown" finished-at="2024-07-30T03:22:08Z" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SupriyaBhosale.SeleniumProjectEcommerace.StandAloneTestHashmap -->
+    </test> <!-- HahMap DataProvider Test -->
+  </suite> <!-- Suite -->
+</testng-results>
