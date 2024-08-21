@@ -24,7 +24,7 @@ String productname = "ZARA COAT 3";
 	
 	  public void StandAlone(HashMap<String, String> input) throws IOException, InterruptedException
 	  {		
-             
+            // did some changes for CI CD  
    
         // Landingpage landpage = lunchApplication();
          //ProductCatlog productcatLog= landpage.loginApplication("bhosalesupriya0912@gmail.com", "Supriya1234@");      
