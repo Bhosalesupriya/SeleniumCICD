@@ -81,7 +81,7 @@ String productname = "ZARA COAT 3";
 //
 //		return new Object[][] {{map} , {map1}};
 		
-       List<HashMap<String, String>> data = getJsonDataToMap(System.getProperty("user.dir")+ "\\src\\test\\java\\SupriyaBhosale\\data\\purchaseOrder.json"); 	
+     List<HashMap<String, String>> data = getJsonDataToMap(System.getProperty("user.dir")+ "\\src\\test\\java\\SupriyaBhosale\\data\\purchaseOrder.json"); 	
 	
 	    return  new Object[][] {{data.get(0)} , {data.get(1)}};                            
 		

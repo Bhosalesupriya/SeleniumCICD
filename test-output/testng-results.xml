@@ -1,66 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="4" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-25T15:22:27Z" name="Suite" finished-at="2024-07-25T15:22:31Z" duration-ms="3619">
+  <suite started-at="2024-08-16T22:16:49Z" name="Suite" finished-at="2024-08-16T22:17:03Z" duration-ms="13852">
     <groups>
       <group name="ErrorHandling">
-        <method signature="ErrorValidation.loginErroValidation()[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.ErrorValidation@280d9edc]" name="loginErroValidation" class="SupriyaBhosale.SeleniumProjectEcommerace.ErrorValidation"/>
+        <method signature="ErrorValidation.loginErroValidation()[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.ErrorValidation@4f2c9ba6]" name="loginErroValidation" class="SupriyaBhosale.SeleniumProjectEcommerace.ErrorValidation"/>
       </group> <!-- ErrorHandling -->
+      <group name="purchase">
+        <method signature="StandAloneTestHashmap.StandAlone(java.util.HashMap)[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.StandAloneTestHashmap@5ed731d0]" name="StandAlone" class="SupriyaBhosale.SeleniumProjectEcommerace.StandAloneTestHashmap"/>
+      </group> <!-- purchase -->
     </groups>
-    <test started-at="2024-07-25T15:22:27Z" name="Stand ALONE Test" finished-at="2024-07-25T15:22:27Z" duration-ms="13">
-    </test> <!-- Stand ALONE Test -->
-    <test started-at="2024-07-25T15:22:27Z" name="Error validation Test" finished-at="2024-07-25T15:22:31Z" duration-ms="3619">
+    <test started-at="2024-08-16T22:16:49Z" name="Error validation Test" finished-at="2024-08-16T22:16:57Z" duration-ms="8256">
       <class name="SupriyaBhosale.SeleniumProjectEcommerace.ErrorValidation">
-        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.ErrorValidation@280d9edc]" started-at="2024-07-25T15:22:27Z" name="lunchApplication" finished-at="2024-07-25T15:22:30Z" duration-ms="2651" status="PASS">
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.ErrorValidation@4f2c9ba6]" started-at="2024-08-16T22:16:49Z" name="lunchApplication" finished-at="2024-08-16T22:16:52Z" duration-ms="2598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchApplication -->
-        <test-method signature="loginErroValidation()[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.ErrorValidation@280d9edc]" started-at="2024-07-25T15:22:30Z" name="loginErroValidation" finished-at="2024-07-25T15:22:31Z" duration-ms="810" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email password.]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email password.]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at SupriyaBhosale.SeleniumProjectEcommerace.ErrorValidation.loginErroValidation(ErrorValidation.java:25)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="loginErroValidation()[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.ErrorValidation@4f2c9ba6]" started-at="2024-08-16T22:16:52Z" name="loginErroValidation" finished-at="2024-08-16T22:16:53Z" duration-ms="901" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginErroValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.ErrorValidation@280d9edc]" started-at="2024-07-25T15:22:31Z" name="tearDown" finished-at="2024-07-25T15:22:31Z" duration-ms="106" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.ErrorValidation@4f2c9ba6]" started-at="2024-08-16T22:16:53Z" name="tearDown" finished-at="2024-08-16T22:16:53Z" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.ErrorValidation@4f2c9ba6]" started-at="2024-08-16T22:16:53Z" name="lunchApplication" finished-at="2024-08-16T22:16:54Z" duration-ms="1065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="productErrorValidation()[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.ErrorValidation@4f2c9ba6]" started-at="2024-08-16T22:16:54Z" name="productErrorValidation" finished-at="2024-08-16T22:16:57Z" duration-ms="3619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.ErrorValidation@4f2c9ba6]" started-at="2024-08-16T22:16:57Z" name="tearDown" finished-at="2024-08-16T22:16:57Z" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- SupriyaBhosale.SeleniumProjectEcommerace.ErrorValidation -->
     </test> <!-- Error validation Test -->
+    <test started-at="2024-08-16T22:16:49Z" name="HahMap DataProvider Test" finished-at="2024-08-16T22:17:03Z" duration-ms="13852">
+      <class name="SupriyaBhosale.SeleniumProjectEcommerace.StandAloneTestHashmap">
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.StandAloneTestHashmap@5ed731d0]" started-at="2024-08-16T22:16:49Z" name="lunchApplication" finished-at="2024-08-16T22:16:52Z" duration-ms="2443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="StandAlone(java.util.HashMap)[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.StandAloneTestHashmap@5ed731d0]" started-at="2024-08-16T22:16:52Z" name="StandAlone" data-provider="getData" finished-at="2024-08-16T22:16:56Z" duration-ms="4301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Supriya1234@, product=ZARA COAT 3, email=bhosalesupriya0912@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StandAlone -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.StandAloneTestHashmap@5ed731d0]" started-at="2024-08-16T22:16:56Z" name="tearDown" finished-at="2024-08-16T22:16:56Z" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.StandAloneTestHashmap@5ed731d0]" started-at="2024-08-16T22:16:56Z" name="lunchApplication" finished-at="2024-08-16T22:16:57Z" duration-ms="990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="StandAlone(java.util.HashMap)[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.StandAloneTestHashmap@5ed731d0]" started-at="2024-08-16T22:16:57Z" name="StandAlone" data-provider="getData" finished-at="2024-08-16T22:17:01Z" duration-ms="4384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Prit0911, product=ADIDAS ORIGINAL, email=gargi.b94@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StandAlone -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.StandAloneTestHashmap@5ed731d0]" started-at="2024-08-16T22:17:01Z" name="tearDown" finished-at="2024-08-16T22:17:01Z" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.StandAloneTestHashmap@5ed731d0]" started-at="2024-08-16T22:17:01Z" name="lunchApplication" finished-at="2024-08-16T22:17:02Z" duration-ms="1049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.StandAloneTestHashmap@5ed731d0]" started-at="2024-08-16T22:17:02Z" name="OrderHistoryTest" finished-at="2024-08-16T22:17:03Z" depends-on-methods="SupriyaBhosale.SeleniumProjectEcommerace.StandAloneTestHashmap.StandAlone" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SupriyaBhosale.SeleniumProjectEcommerace.StandAloneTestHashmap@5ed731d0]" started-at="2024-08-16T22:17:03Z" name="tearDown" finished-at="2024-08-16T22:17:03Z" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SupriyaBhosale.SeleniumProjectEcommerace.StandAloneTestHashmap -->
+    </test> <!-- HahMap DataProvider Test -->
   </suite> <!-- Suite -->
 </testng-results>
